@@ -40,6 +40,41 @@ body {
 	transform: translate(3px, 3px);
 }
 
+button {
+	font-family: SuperMarioMakerExtended;
+	display: block;
+	background: linear-gradient(to bottom, #09BBE8 5%, #037f9e 100%);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.bigbtn {
+	width: 90%;
+	font-size: 24px;
+}
+
+button:hover {
+	box-shadow: 4px 4px 5px black;
+	-moz-box-shadow: 4px 4px 5px black;
+	-webkit-box-shadow: 4px 4px 5px black;
+	-khtml-box-shadow: 4px 4px 5px black;
+	filter: brightness(1.15);
+}
+
+button:active {
+	box-shadow: 0px 0px 0px black;
+	-moz-box-shadow: 0px 0px 0px black;
+	-webkit-box-shadow: 0px 0px 0px black;
+	-khtml-box-shadow: 0px 0px 0px black;
+	filter: brightness(0.75);
+	transform: translate(3px, 3px);
+}
+
 a {
 	color: blue;
 }
