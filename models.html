@@ -10,8 +10,36 @@
 		</title>
 		<script src="./webassets/main.js" defer>
 		</script>
+		<script defer>
+		function checkParam() {
+			var divIds = [];
+			var children = document.getElementById("models").children;
+			for (var i = 0, len = children.length ; i < len; i++) {
+				if (children[i].id != '' && children[i].id != null) divIds.push(children[i].id); 
+			}
+			console.log(divIds);
+			if (getWebParam('view') != null) {
+				var isFromList = false;
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') == divIds[i]) {
+						isFromList = true;
+					}
+				}
+				if (!isFromList) {
+					console.log('not valid view!\n');
+					return;
+				}
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') != divIds[i] && getWebParam('view') != '' && getWebParam('view') != null) {
+						document.getElementById(divIds[i]).remove();
+					}
+				}
+				document.getElementById('note').remove();
+			}
+		}
+		</script>
 	</head>
-	<body onload="bootWeb();">
+	<body onload="bootWeb(); checkParam();">
 	<div style="width: 100%; height: 100%">
 		<div style="border-radius: 20px; -webkit-border-radius: 20px; border: 2px solid black; background-color: #99fcff; margin: auto; padding: 10px; width: 90%; height: 170px; opacity: 0.72; font-weight: bold; font-size: 48px; color: #000000; text-align: center; text-transform: uppercase">
 			<p style="text-shadow: 2px 2px 4px #222222;">Koop the Koopa's Home</p>
@@ -21,7 +49,7 @@
 		<br>
 		<br>
 		<br>
-		<div class="boxmain boxshad" style="text-align: center">
+		<div class="boxmain boxshad" style="text-align: center" >
 			<!-- color stuff
 		
 			#27823f - yes
@@ -31,52 +59,53 @@
 			-->
 			<!-- ORDER BY MODEL ICON -->
 			<h1>N64 VERSIONS COMING SOON</h1>
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="TrollMdl" style="display: inline">
-					<img src="modelico/00.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						Troll face Mario
-						</h1>
-						<p style="color: black;">
-						The first ever model I've made. It was simple.<br>
-						Just replace his entire face with it.<br>
-						<br>
-						Saturn Compatible: Yes<br>
-						N64 Compatible: Coming soon<br>
-						<center><button style="font-size: 24px"
-						onclick="downloadModel('troll');">
-						Download
-						</button></center>
+			<p id="note">Here are a list of models that I have made:</p>
+			<div id="models">
+				<div id="Troll" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img src="modelico/00.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Troll face Mario
+							</h1>
+							<p style="color: black;">
+							The first ever model I've made. It was simple.<br>
+							Just replace his entire face with it.<br>
+							<br>
+							Saturn Compatible: Yes<br>
+							N64 Compatible: Coming soon<br>
+							<center><button style="font-size: 24px"
+							onclick="downloadModel('troll');">
+							Download
+							</button></center>
+						</div>
 					</div>
 				</div>
-			</div>
-			<br>
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="VigerMdl" style="display: inline">
-					<img src="modelico/01.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						Viger
-						</h1>
-						<p style="color: black;">
-						The model that I love the most.<br>
-						If you don't know who Viger is well.. He is the best SMG4 (and SnapCube) reactor in YouTube.<br>
-						<br>
-						Saturn Compatible: Yes<br>
-						N64 Compatible: Coming soon<br>
-						<center><button style="font-size: 24px"
-						onclick="downloadModel('viger');">
-						Download
-						</button></center>
+				<br>
+				<div id="Viger" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img src="modelico/01.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Viger
+							</h1>
+							<p style="color: black;">
+							The model that I love the most.<br>
+							If you don't know who Viger is well.. He is the best SMG4 (and SnapCube) reactor in YouTube.<br>
+							<br>
+							Saturn Compatible: Yes<br>
+							N64 Compatible: Coming soon<br>
+							<center><button style="font-size: 24px"
+							onclick="downloadModel('viger');">
+							Download
+							</button></center>
+						</div>
 					</div>
 				</div>
+				<br>
+				<br>
 			</div>
-			<br>
-			<br>
 			<div id="legalshit">
-				<br>
-				<br>
 				<p style="font-size: 16px; color:black;">"Koopa" and the Mario franchise is property of Nintendo<br>
 				<p style="font-size: 16px; color:black;">Copyright (C) 2021 - 20XX Koop the Koopa<br>
 			</div>

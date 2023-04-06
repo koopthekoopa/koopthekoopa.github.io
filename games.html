@@ -10,8 +10,36 @@
 		</title>
 		<script src="./webassets/main.js" defer>
 		</script>
+		<script defer>
+		function checkParam() {
+			var divIds = [];
+			var children = document.getElementById('games').children;
+			for (var i = 0, len = children.length ; i < len; i++) {
+				if (children[i].id != '' && children[i].id != null) divIds.push(children[i].id); 
+			}
+			console.log(divIds);
+			if (getWebParam('view') != null) {
+				var isFromList = false;
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') == divIds[i]) {
+						isFromList = true;
+					}
+				}
+				if (!isFromList) {
+					console.log('not valid view!\n');
+					return;
+				}
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') != divIds[i] && getWebParam('view') != '' && getWebParam('view') != null) {
+						document.getElementById(divIds[i]).remove();
+					}
+				}
+				document.getElementById('note').remove();
+			}
+		}
+		</script>
 	</head>
-	<body onload="bootWeb();">
+	<body onload="bootWeb(); checkParam();">
 	<div style="width: 100%; height: 100%">
 		<div style="border-radius: 20px; -webkit-border-radius: 20px; border: 2px solid black; background-color: #99fcff; margin: auto; padding: 10px; width: 90%; height: 170px; opacity: 0.72; font-weight: bold; font-size: 48px; color: #000000; text-align: center; text-transform: uppercase">
 			<p style="text-shadow: 2px 2px 4px #222222;">Koop the Koopa's Home</p>
@@ -22,111 +50,107 @@
 		<br>
 		<br>
 		<div class="boxmain boxshad" style="text-align: center">
-			<p>Here are a list of games that I have made (some are crap though):</p>
+			<p id="note">Here are a list of games that I have made (some are crap though):</p>
 			<!-- BY GAME ICON ORDER -->
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="KoopExe" style="display: inline">
-					<img class="boxshad" src="gameico/00.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						Koop.exe
-						</h1>
-						<p style="color: black;">
-						This is where I start to get into the EXE community (now I left from it)<br>
-						Someone has downloaded a fangame of me from... the dark web...<br>
-						It was a hijacked version of "Koop's Journey".<br>
-						So that person started playing it and... scary stuff!!<br>
-						<br>
-						Description of the game:<br>
-						It is Koop the Koopa's turn to save the pricness because<br>
-						for some odd reason Mario was not good enough to do it...<br>
-						<br>
-						oh and this game is cancelled so you're stuck with the demo.<br>
-						</p>
-						<center><button style="font-size: 24px"
-						onclick="window.location.href = 'https://gamejolt.com/games/koopshackedcursedgame/672494';">
-						Download (Gamejolt)
-						</button></center>
+			<div id="games">
+				<div id="KoopExe" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img class="boxshad" src="gameico/00.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Koop.exe
+							</h1>
+							<p style="color: black;">
+							This is where I start to get into the EXE community (now I left from it)<br>
+							Someone has downloaded a fangame of me from... the dark web...<br>
+							It was a hijacked version of "Koop's Journey".<br>
+							So that person started playing it and... scary stuff!!<br>
+							<br>
+							Description of the game:<br>
+							It is Koop the Koopa's turn to save the pricness because<br>
+							for some odd reason Mario was not good enough to do it...<br>
+							<br>
+							oh and this game is cancelled so you're stuck with the demo.<br>
+							</p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://gamejolt.com/games/koopshackedcursedgame/672494';">
+							Download (Gamejolt)
+							</button></center>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="SonicExeDankHideout" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img class="boxshad" src="gameico/01.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Sonic.exe's dank hideout
+							</h1>
+							<p style="color: black;">
+							Sonic.exe's dank hideout is basically a bad parody of Sonic.exe somehow being praised.<br>
+							You play as 3 characters and then some scary stuff happens yeah yeah but it's memes.
+							</p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://gamejolt.com/games/sonicexeisnotgodbutacooldude/658333';">
+							Download (Gamejolt)
+							</button></center>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="FlappyGb" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img class="boxshad" src="gameico/02.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							FlappyGB (Flappy bird Gameboy port)
+							</h1>
+							<p style="color: black;">
+							I did make other gameboy homebrew games but they were unfinished/really really crap.<br>
+							This one I put some effort into and it plays great.<br>
+							<br>
+							It is a Gameboy Homebrew port of the infamous rage game Flappy Bird.<br>
+							With a small twist... Find out when you're playing it
+							</p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://koopthekoopa.itch.io/flappy-bird-but-gameboy';">
+							Download (Itch.io)
+							</button></center>
+							<br>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://www.youtube.com/watch?v=0htFf4TQcuE';">
+							Youtube gameplay
+							</button></center>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="Sonic2021CreepypastaRemake" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img class="boxshad" src="gameico/03.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Sonic Creepypasta (2021 Remake)
+							</h1>
+							<p style="color: black;">
+							When I discovered that Sally.exe was a rip off of the underrated 'SONIC' Creepypasta<br>
+							I decided to make this and tried to make it very accurate to the video.<br>
+							<br>
+							Don't say this is a Sally.exe rip off.
+							</p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://gamejolt.com/games/sonicremake2021creepypasta/663668';">
+							Download (Gamejolt)
+							</button></center>
+						</div>
 					</div>
 				</div>
 			</div>
-			<br>
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="SonicExeDankHideout" style="display: inline">
-					<img class="boxshad" src="gameico/01.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						Sonic.exe's dank hideout
-						</h1>
-						<p style="color: black;">
-						Sonic.exe's dank hideout is basically a bad parody of Sonic.exe somehow being praised.<br>
-						You play as 3 characters and then some scary stuff happens yeah yeah but it's memes.
-						</p>
-						<center><button style="font-size: 24px"
-						onclick="window.location.href = 'https://gamejolt.com/games/sonicexeisnotgodbutacooldude/658333';">
-						Download (Gamejolt)
-						</button></center>
-					</div>
-				</div>
-			</div>
-			<br>
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="FlappyGb" style="display: inline">
-					<img class="boxshad" src="gameico/02.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						FlappyGB (Flappy bird Gameboy port)
-						</h1>
-						<p style="color: black;">
-						I did make other gameboy homebrew games but they were unfinished/really really crap.<br>
-						This one I put some effort into and it plays great.<br>
-						<br>
-						It is a Gameboy Homebrew port of the infamous rage game Flappy Bird.<br>
-						With a small twist... Find out when you're playing it
-						</p>
-						<center><button style="font-size: 24px"
-						onclick="window.location.href = 'https://koopthekoopa.itch.io/flappy-bird-but-gameboy';">
-						Download (Itch.io)
-						</button></center>
-						<br>
-						<center><button style="font-size: 24px"
-						onclick="window.location.href = 'https://www.youtube.com/watch?v=0htFf4TQcuE';">
-						Youtube gameplay
-						</button></center>
-					</div>
-				</div>
-			</div>
-			<br>
-			<div class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
-				<div id="Sonic2021CreepypastaRemake" style="display: inline">
-					<img class="boxshad" src="gameico/03.png"></img>
-					<div style="display: inline; position: relative;">
-						<h1>
-						Sonic Creepypasta (2021 Remake)
-						</h1>
-						<p style="color: black;">
-						When I discovered that Sally.exe was a rip off of the underrated 'SONIC' Creepypasta<br>
-						I decided to make this and tried to make it very accurate to the video.<br>
-						<br>
-						Don't say this is a Sally.exe rip off.
-						</p>
-						<center><button style="font-size: 24px"
-						onclick="window.location.href = 'https://gamejolt.com/games/sonicremake2021creepypasta/663668';">
-						Download (Gamejolt)
-						</button></center>
-					</div>
-				</div>
-			</div>
-			<br>
-			<br>
 			<div id="legalshit">
-				<br>
-				<br>
 				<p style="font-size: 16px; color:black;">"Koopa" and the Mario franchise is property of Nintendo<br>
 				<p style="font-size: 16px; color:black;">Copyright (C) 2021 - 20XX Koop the Koopa<br>
 			</div>
-			<br>
-			<br>
 		</div>
 		<br>
 		<br>

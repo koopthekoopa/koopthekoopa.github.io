@@ -13,5 +13,7 @@ function bootWeb() {
 	enableJs();
 }
 
-function getWebParams() {
+function getWebParam(paramName) {
+	param = new URLSearchParams(window.location.search);
+	return param.get(paramName);
 }
