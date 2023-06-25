@@ -22,8 +22,9 @@
 		<br>
 		<br>
 		<div class="boxmain boxshad" style="text-align: center">
-			<p style="font-size: 32px;">COMING SOON!</p>
-			<br><br><br><br>
+			
+			CODE HERE PLS
+			
 			<div id="legalshit">
 				<br>
 				<br>

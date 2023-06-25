@@ -11,22 +11,7 @@ function downloadModel(name) {
 
 function bootWeb() {
 	enableJs();
-	console.log(readFile("webargs.txt"));
-}
-
-function readFile(file) {
-	var rawFile = new XMLHttpRequest();
-	rawFile.open("GET", file, false);
-	rawFile.onreadystatechange = function () {
-		if (rawFile.readyState === 4) {
-			if (rawFile.status === 200 || rawFile.status == 0) {
-				rawFile.send(null);
-				return rawFile.responseText;
-			}
-		}
-	}
-	rawFile.send(null);
-	return "error"
+	document.getElementById('nojs').style.visibility = "hidden";
 }
 
 function getWebParam(paramName) {

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>404 Error</title>
+	<style>
+		body {
+			font-family: Arial;
+		}
+	</style>
+  </head>
+  <body>
+	<center>
+    <h1>404 Error</h1>
+	<p>Whoops! The page was not founded.</p>
+    <a href="/"><< Go</a>
+	</center>
+  </body>
+</html>
