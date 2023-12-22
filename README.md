@@ -1,2 +1,2 @@
 # Koop's Website
-This is the source of my web :D
+My website is hosted in Github. So of course it is open source.
