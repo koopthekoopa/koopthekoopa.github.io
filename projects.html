@@ -1,0 +1,119 @@
+<html id="main" lang="en">
+	<head>
+		<meta name="google" content="notranslate">
+		<meta content="./webassets/webicon.png" itemprop="image">
+		<link href="./webassets/webicon.png" rel="shortcut icon">
+		<link rel="stylesheet" href="./webassets/main.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>
+			KoopTheKoopa's Home.
+		</title>
+		<script src="./webassets/main.js" defer>
+		</script>
+		<script defer>
+		function checkParam() {
+			var divIds = [];
+			var children = document.getElementById('games').children;
+			for (var i = 0, len = children.length ; i < len; i++) {
+				if (children[i].id != '' && children[i].id != null) divIds.push(children[i].id); 
+			}
+			console.log(divIds);
+			if (getWebParam('view') != null) {
+				var isFromList = false;
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') == divIds[i]) {
+						isFromList = true;
+					}
+				}
+				if (!isFromList) {
+					console.log('not valid view!\n');
+					return;
+				}
+				for (var i = 0; i < divIds.length; i++) {
+					if (getWebParam('view') != divIds[i] && getWebParam('view') != '' && getWebParam('view') != null) {
+						document.getElementById(divIds[i]).remove();
+					}
+				}
+				document.getElementById('note').remove();
+			}
+		}
+		</script>
+	</head>
+	<body onload="bootWeb(); checkParam();">
+	<div style="width: 100%; height: 100%">
+		<div style="border-radius: 20px; -webkit-border-radius: 20px; border: 2px solid black; background-color: #99fcff; margin: auto; padding: 10px; width: 90%; height: 150px; opacity: 0.72; font-weight: bold; font-size: 48px; color: #000000; text-align: center; text-transform: uppercase">
+			<p style="text-shadow: 2px 2px 4px #222222;">KoopTheKoopa's Home</p>
+			<p id="nojs" style="font-size: 20px; color: red">Loading...<br>(if javascript is not enabled, then enable it and refresh the page)</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="boxmain boxshad" style="text-align: center">
+			<p id="note">Here are a list of my projects:</p>
+			<!-- BY GAME ICON ORDER -->
+			<div id="games">
+            <div id="WiiIPL" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+				<div style="display: inline">
+						<img class="boxshad" src="gameico/04.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							wii-ipl (Wii Menu Decompilation)
+							</h1>
+							<p style="color: black;">
+							Taking things a step further.<br><br>
+                            If you don't know what a decompilation is then basically it's turning an applications machine code back to source code. This is one hell of a project and am not sure if I will ever complete it but I do want to document stuff that has not been documented yet or fully.
+							<br><br>Keep in mind that this project is still Work in Progress and very incomplete as it won't produce a working Wii Menu executable... yet.
+                            </p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://github.com/koopthekoopa/wii-ipl';">
+							Repository Page (Github; <b>Incomplete!</b>)
+							</button></center>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="FlappyGb" class="boxmain boxshad" style="padding: 8px 32px; width: 70%; text-align: left">
+					<div style="display: inline">
+						<img class="boxshad" src="gameico/02.png"></img>
+						<div style="display: inline; position: relative;">
+							<h1>
+							Flappy GB (Flappy bird Gameboy port)
+							</h1>
+							<p style="color: black;">
+							I did make other gameboy homebrew games but they were unfinished/really really crap.<br>
+							This one I put some effort into and it plays great.<br>
+							<br>
+							It is a Gameboy Homebrew port of the infamous rage game Flappy Bird.<br>
+							With a small twist... Find out when you're playing it
+							</p>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://koopthekoopa.itch.io/flappy-bird-but-gameboy';">
+							Download/Play online (Itch.io)
+							</button></center>
+							<br>
+							<center><button style="font-size: 24px"
+							onclick="window.location.href = 'https://www.youtube.com/watch?v=0htFf4TQcuE';">
+							Youtube gameplay
+							</button></center>
+						</div>
+					</div>
+				</div>
+			</div>
+            <br>
+            <br>
+            <br>
+            <center><button style="font-size: 22px" onclick="window.location.href = 'oldprojects.html';"> Old Projects </button><br></center>
+            <center><button style="font-size: 22px" onclick="window.location.href = 'index.html';"> < Back to the main page </button></center>
+			<div id="legalshit">
+				<p style="font-size: 16px; color:black;">"Koopa" and the Mario franchise is property of Nintendo<br>
+				<p style="font-size: 16px; color:black;">  2021 - 2024 KoopTheKoopa<br>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+	</div>
+	</body>
+</html>
+
+
