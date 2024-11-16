@@ -1,0 +1,39 @@
+.topContent {
+  font-family: SuperMarioMakerExtended;
+
+  border: 2px solid #005519;
+  border-radius: 5px;
+  border-top: none;
+
+  user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+  overflow: hidden;
+  background-image: linear-gradient(rgb(0, 156, 34), rgb(0, 131, 44));
+}
+
+.topContent a {
+  float: left;
+  color: #d8f7ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 0px;
+}
+
+.topContent a:not(:last-child) {
+  border-right: none;
+}
+
+.topContent a:hover {
+  
+  background-image: linear-gradient(rgb(160, 236, 255), #e0f4ff);
+  color: black;
+  border-radius: 5px;
+}
+
+

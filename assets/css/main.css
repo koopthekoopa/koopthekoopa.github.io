@@ -1,0 +1,30 @@
+@font-face {
+	font-family: SuperMarioMakerExtended;
+	src: url(../font_smm.woff);
+}
+
+body {
+    /* background */
+    height: 100vh;
+	background-attachment: fixed;
+    background-color: #09BBE8;
+    background: linear-gradient(to bottom, #76c1ff 5%, #069fc5 100%);
+	background-repeat: no-repeat;
+
+	font-family: SuperMarioMakerExtended;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #001d0a;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+	-moz-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+	-webkit-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+	-khtml-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+}
+
+p {
+    color: #003512;
+}
+
+

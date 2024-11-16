@@ -1,2 +1,6 @@
 .private/*
+assets/template.html
 LEGACY/*
+.vscode
+*.pdn
+_top.html
