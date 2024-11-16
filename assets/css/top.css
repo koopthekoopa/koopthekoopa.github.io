@@ -30,7 +30,6 @@
 }
 
 .topContent a:hover {
-  
   background-image: linear-gradient(rgb(160, 236, 255), #e0f4ff);
   color: black;
   border-radius: 5px;

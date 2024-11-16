@@ -19,7 +19,7 @@ bottomContent = `
         <img src="assets/btn/browser.gif">
         <a href="https://www.mozilla.org/firefox/new"><img src="assets/btn/firefoxget.gif"></a>
         <a href="https://www.mozilla.org/firefox/new"><img src="assets/btn/getmozilla2.gif"></a>
-        <img src="assets/btn/html.gif">
+        <a href="https://www.learn-html.org/"><img src="assets/btn/html.gif"></a>
         <img src="assets/btn/linux_powered.gif">
         <img src="assets/btn/made_with_windows.gif">
         <a href="https://web.archive.org/web/19981205060735/http://www.microsoft.com/"><img src="assets/btn/msie2.gif"></a>
@@ -28,6 +28,8 @@ bottomContent = `
         <img src="assets/btn/www.gif">
         <p>
             Registered trademarks used for this website's content, such as "Mario" and "Koopa", are owned by their respective owners, like Nintendo.<br>
+            I do <b>NOT</b> make profit out of this website.<br><br>
+
             2021 - 2024 KoopTheKoopa.
         </p>
     </center>
