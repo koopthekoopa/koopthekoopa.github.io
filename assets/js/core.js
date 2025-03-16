@@ -10,7 +10,6 @@ topContent = `
 </div>
 `;
 
-// to be filled in(?)
 bottomContent = `
 <div class="bottomContent">
     <br><br><br><br><br><br>
