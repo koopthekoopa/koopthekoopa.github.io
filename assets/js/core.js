@@ -6,6 +6,7 @@ topContent = `
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
     <a href="sm64.html">SM64 Resources</a>
+    <a href="vintage-select.html">Vintage Cavern</a>
     <a href="about.html">About</a>
 </div>
 `;

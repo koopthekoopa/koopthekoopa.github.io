@@ -27,4 +27,32 @@ p {
     color: #000000;
 }
 
+button {
+	font-family: SuperMarioMakerExtended;
+	display: block;
+	background: linear-gradient(to bottom, #09BBE8 5%, #037f9e 100%);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid black;
+}
 
+button:hover {
+	transform: translate(-1px, -1px);
+	background: linear-gradient(to bottom, #cdf5ff 5%, #8edbee 100%);
+	color: black;
+}
+
+button:active {
+	transform: translate(1px, 1px);
+	background: linear-gradient(to bottom, #097b97 5%, #06667e 100%);
+	color: white;
+}
+
+.bigbtn {
+	width: 90%;
+	font-size: 24px;
+}
