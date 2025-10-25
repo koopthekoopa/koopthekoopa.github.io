@@ -27,9 +27,14 @@ bottomContent = `
         <img src="assets/btn/www.gif">
         <p>
             Registered trademarks used for this website's content, such as "Mario" and "Koopa", are owned by their respective owners, like Nintendo.<br>
-            I do <b>NOT</b> make profit out of this website.<br><br>
-
-            2021 - 2024 KoopTheKoopa.
+            I do not make profit out of this website.<br>
+            <br>
+            2021 - 2025 KoopTheKoopa.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </p>
     </center>
 </div>
