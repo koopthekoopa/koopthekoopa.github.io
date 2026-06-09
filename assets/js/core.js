@@ -4,8 +4,9 @@ topContent = `
 <meta name="viewport" content="width=device-width, initial-scale=0.7" /> <!-- debug -->
 <div class="topContent">
     <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="sm64.html">SM64 Resources</a>
+    <a href="catalog.html?type=projects_normal">Projects</a>
+    <a href="catalog.html?type=projects_college">College Projects</a>
+    <a href="catalog.html?type=sm64_res">SM64 Resources</a>
     <a href="vintage-select.html">Vintage Cavern</a>
     <a href="about.html">About</a>
 </div>
@@ -30,7 +31,7 @@ bottomContent = `
             Registered trademarks used for this website's content, such as "Mario" and "Koopa", are owned by their respective owners, like Nintendo.<br>
             I do not make profit out of this website.<br>
             <br>
-            2021 - 2025 KoopTheKoopa.
+            2021 - 2026 KoopTheKoopa.
             <br>
             <br>
             <br>
