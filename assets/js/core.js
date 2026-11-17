@@ -7,7 +7,7 @@ topContent = `
     <a href="catalog.html?type=projects_normal">Projects</a>
     <a href="catalog.html?type=projects_college">College Projects</a>
     <a href="catalog.html?type=sm64_res">SM64 Resources</a>
-    <a href="vintage-select.html">Vintage Cavern</a>
+    <a href="catalog.html?type=film_cavern">Film Cavern</a>
     <a href="about.html">About</a>
 </div>
 `;
@@ -64,4 +64,9 @@ function WEBInit() {
     console.log("Prep fin!\n");
 }
 
-
+function WEBChangeTitle(new_title) {
+    var full_title = "KoopTheKoopa - " + new_title;
+    if (document.title != full_title && new_title != undefined) {
+        document.title = full_title;
+    }
+}

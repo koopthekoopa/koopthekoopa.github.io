@@ -1,6 +1,7 @@
 var catalog_params = new URLSearchParams(document.location.search);
-var current_catalog_index = CATALOG_PROJECTS_BAD;
+var current_catalog_index = CATALOG_BAD;
 var current_catalog_name = catalog_params.get("type");
+var current_catalog_id = catalog_params.get("id");
 
 switch (current_catalog_name) {
     case "projects_normal": {
@@ -15,12 +16,8 @@ switch (current_catalog_name) {
         current_catalog_index = CATALOG_SM64_RESOURCES;
         break;
     }
-    case "vintage_games": {
-        current_catalog_index = CATALOG_VINTAGE_GAMES;
-        break;
-    }
-    case "vintage_film": {
-        current_catalog_index = CATALOG_VINTAGE_FILM;
+    case "film_cavern": {
+        current_catalog_index = CATALOG_FILM_CAVERN;
         break;
     }
     default: {
@@ -30,3 +27,4 @@ switch (current_catalog_name) {
 }
 
 var current_catalog = full_catalog[current_catalog_index];
+var current_catalog_item = full_catalog[current_catalog_index].items[current_catalog_id];

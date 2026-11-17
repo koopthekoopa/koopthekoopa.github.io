@@ -4,3 +4,4 @@ LEGACY/*
 .vscode
 *.pdn
 _top.html
+*.log

@@ -4,27 +4,27 @@
 }
 
 body {
-    /* background */
-    height: 100vh;
-    background-color: #09BBE8;
-    background: linear-gradient(to bottom, #76c1ff 5%, #069fc5 100%);
+	/* background */
+	height: 100vh;
+	background-color: #09BBE8;
+	background: linear-gradient(to bottom, #76c1ff 5%, #069fc5 100%);
 	background-attachment: fixed;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
 	font-family: SuperMarioMakerExtended;
-    margin: 0;
+	margin: 0;
 }
 
 h1, h2, h3, h4 {
-    color: #001d0a;
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
-	-moz-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
-	-webkit-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
-	-khtml-text-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+	color: #001d0a;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+	-moz-text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+	-webkit-text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+	-khtml-text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 p {
-    color: #000000;
+	color: #000000;
 }
 
 button {
@@ -55,4 +55,36 @@ button:active {
 .bigbtn {
 	width: 90%;
 	font-size: 24px;
+}
+
+tr {
+	background: linear-gradient(to bottom, #097b97 5%, #06667e 100%);
+}
+
+tr:hover {
+	background: linear-gradient(to bottom, #053744 5%, #053744 100%);
+}
+
+table {
+	border-collapse: collapse;
+	background: linear-gradient(to bottom, #097b97 5%, #06667e 100%);
+	color: white;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 15px;
+}
+
+th {
+	background: linear-gradient(to bottom, #cdf5ff 5%, #8edbee 100%);
+	color: black;
+}
+
+.hrefOnCurrentTab:hover, .hrefOnNewTab:hover {
+	cursor: pointer;
+}
+
+.hrefOnCurrentTab:active, .hrefOnNewTab:active {
+	background: linear-gradient(to bottom, #000000 5%, #02181d 100%);
 }
