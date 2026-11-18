@@ -1,13 +1,13 @@
 topContent = `
 <!-- _top.html -->
 <link rel="stylesheet" href="assets/css/top.css">
-<meta name="viewport" content="width=device-width, initial-scale=0.7" /> <!-- debug -->
+<meta name="viewport" content="width=device-width, initial-scale=0.7" />
 <div class="topContent">
     <a href="index.html">Home</a>
-    <a href="catalog.html?type=projects_normal">Projects</a>
-    <a href="catalog.html?type=projects_college">College Projects</a>
-    <a href="catalog.html?type=sm64_res">SM64 Resources</a>
-    <a href="catalog.html?type=film_cavern">Film Cavern</a>
+    <a href="catalog.html?title=PROJECTS">Projects</a>
+    <a href="catalog.html?title=COLLEGE_PROJECTS">College Projects</a>
+    <a href="catalog.html?title=SM64_RESOURCES">SM64 Resources</a>
+    <a href="catalog.html?title=MY_FILM_CAVERN">My Film Cavern</a>
     <a href="about.html">About</a>
 </div>
 `;
@@ -23,7 +23,7 @@ bottomContent = `
         <a href="https://www.learn-html.org/"><img src="assets/btn/html.gif"></a>
         <img src="assets/btn/linux_powered.gif">
         <img src="assets/btn/made_with_windows.gif">
-        <a href="https://web.archive.org/web/19981205060735/http://www.microsoft.com/"><img src="assets/btn/msie2.gif"></a>
+        <a href="https://web.archive.org/web/19961020014044/http://www.microsoft.com/"><img src="assets/btn/msie2.gif"></a>
         <img src="assets/btn/n64.gif">
         <a href="http://wii.com/"><img src="assets/btn/wii_button.gif"></a>
         <img src="assets/btn/www.gif">

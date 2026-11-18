@@ -1,6 +1,6 @@
 var items_div = document.getElementById("items");
 document.getElementById("catalog_title").innerHTML = current_catalog.title;
-document.getElementById("catalog_desc").innerHTML = current_catalog.description;
+document.getElementById("catalog_desc").innerHTML = current_catalog.description.replaceAll("[COUNT]", current_catalog.items.length);
 
 WEBChangeTitle(current_catalog.title);
 
@@ -10,7 +10,7 @@ if (current_catalog.list_font != undefined) {
 }
 
 if (current_catalog.type == CATALOG_TYPE_PRETTY) {
-    console.log("pretty!!");
+    console.log("CATALOG LIST: Pretty");
     var item_id = 0;
     current_catalog.items.forEach(item => {
         var div_href = document.createElement("a");
@@ -18,7 +18,8 @@ if (current_catalog.type == CATALOG_TYPE_PRETTY) {
             div_href.href = item.list_href;
         }
         else {
-            div_href.href = "catalog-item.html?type="+current_catalog_name+"&id="+item_id;
+            // div_href.href = "catalog-item.html?title="+current_catalog_title.catalog_title_format()+"&item_id="+item_id;
+            div_href.href = "catalog-item.html?title="+current_catalog_title.catalog_title_format()+"&item_title="+item.title.catalog_title_format();
         }
         {
             var div = document.createElement("div");
@@ -36,22 +37,21 @@ if (current_catalog.type == CATALOG_TYPE_PRETTY) {
     });
 }
 else {
-    console.log("lame..."); 
+    console.log("CATALOG LIST: Lame");
 
     if (current_catalog.table_names == undefined) {
-        // alert("'table_names' is not in the list. this is required for table catalogs!");
+        console.log("CATALOG LIST: Use default table names");
         current_catalog.table_names = [ ["title", "Name"], ["list_description", "Description"] ];
     }
 
-    // Setup for table creation
+    console.log("CATALOG LIST: Create table element");
     var items_table = document.createElement("table");
     items_table.style.border = "1px solid black";
     items_div.appendChild(items_table);
-    var tr = document.createElement("tr");
 
-    // Create table names
+    console.log("CATALOG LIST: Create table headers");
+    var tr = document.createElement("tr");
     current_catalog.table_names.forEach(table_headers => {
-        console.log("add th for " + table_headers[0]);
         var th = document.createElement("th");
         {
             th.innerHTML = table_headers[1];
@@ -60,10 +60,9 @@ else {
     });
     items_table.appendChild(tr);
 
-    // Create table contents
+    console.log("CATALOG LIST: Create table rows");
     var item_id = 0;
     current_catalog.items.forEach(item => {
-        console.log("add td for " + item.title);
         var tr = document.createElement("tr");
         {
             // HREFs
@@ -74,7 +73,8 @@ else {
                 }
                 else {
                     tr.className = "hrefOnCurrentTab";
-                    tr.dataset.href = "catalog-item.html?type="+current_catalog_name+"&id="+item_id;
+                    // tr.dataset.href = "catalog-item.html?title="+current_catalog_title.catalog_title_format()+"&item_id="+item_id;
+                    tr.dataset.href = "catalog-item.html?title="+current_catalog_title.catalog_title_format()+"&item_title="+item.title.catalog_title_format();
                 }
             }
             var th_id = 0;
@@ -90,6 +90,7 @@ else {
         item_id += 1;
     });
 
+    console.log("CATALOG LIST: Add click events to rows");
     if (current_catalog.no_href != true) {
         var clickables = document.querySelectorAll(".hrefOnCurrentTab");
         for (const clickable of clickables) {
