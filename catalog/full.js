@@ -274,6 +274,11 @@ var full_catalog = [
                 "list_description": "Felix the Cat short." },
             {   "title": "FELIX FOLLOWS THE SWALLOW", "fmt": "8mm (Cine-Kodagraph)", "year": 1934, "ft": "50 ft",
                 "list_description": "Felix the Cat short." },
+            {   "title": "FELIX HYPS' THE HIPPO", "fmt": "8mm (Cine-Kodagraph)", "year": 1936, "ft": "50 ft",
+                "list_description": "Felix the Cat short." },
+            {   "title": "FELIX THE HYPNOTIST", "fmt": "8mm (Collector's Club)", "year": 1975, "ft": "150 ft",
+                "list_description": "Felix the Cat short.\n" +
+                                    "Original Film: FELIX HYPS' THE HIPPO (1924)" },
             {   "title": "FELIX THE CAT DINES AND PINES", "fmt": "8mm (Niles Films)", "year": NA, "ft": "200 ft",
                 "list_description": "Felix the Cat short." },
             {   "title": "FELIX AND HALLOWE'EN NIGHT", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
@@ -284,7 +289,7 @@ var full_catalog = [
                                     "Davil brill reissue of: WHYS AND OTHER WHYS (1927)" },
             {   "title": "A MAGIC CARPET NOW BRINGS FELIX TO ARABIA", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: ARABIANTICS (1927)" },
+                                    "Davil brill reissue of: ARABIANTICS (1928)" },
             {   "title": "FELIX LOOKS INTO THE FUTURE", "fmt": "Super 8mm (Arrow Films)", "year": 1964+"?", "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Davil brill reissue of: FUTURITZY (1927)" },
@@ -397,11 +402,21 @@ var full_catalog = [
             {   "title": "STEER DOGGING", "fmt": "16mm\n(Trojan Sporting Goods)", "year": NA, "ft": "25 ft",
                 "list_description": "Origin unknown" },
             {   "title": "NOW YOU SEE IT, NOW YOU DON'T", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
-                "list_description": "Uncertain about the title (it's from the box). Origin unknown." },
+                "list_description": "Uncertain about the title (it's from the box).\n" +
+                                    "Origin unknown." },
             {   "title": "SKYSCRAPERS", "fmt": "16mm (Kodaplay)", "year": 1946, "ft": "25 ft",
                 "list_description": "Origin unknown." },
             {   "title": "JERRY ESCAPES", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
-                "list_description": "Original Film: JERRY THE GIANT (1926)???" },
+                "list_description": "Original Film: JERRY THE GIANT (1926)?" },
+            {   "title": "UNKNOWN LIVE ACTION #1", "fmt": "16mm (Kodaplay)", "year": 1946, "ft": "25 ft",
+                "list_description": "Number #10509 in container.\n" +
+                                    "Number #30 at end of film.\n" +
+                                    "Origin unknown." },
+            {   "title": "UNKNOWN LIVE ACTION #2", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+                "list_description": "Number #7(?) at end of film.\n" +
+                                    "Origin unknown." },
+            {   "title": "UNKNOWN LIVE ACTION #3", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "~7 ft",
+                "list_description": "Origin unknown." },
             // MISC CARTOON
             {   "title": "FOXY FARMER", "fmt": "16mm (Keystone)", "year": NA, "ft": "50 ft",
                 "list_description": "Kernel Cootie short." },
