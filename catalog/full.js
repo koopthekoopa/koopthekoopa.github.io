@@ -249,7 +249,7 @@ var full_catalog = [
                 "list_description": "Compilation of three Felix the Cat shorts: \n" +
                                     "FELIX REVOLTS\n" +
                                     "FELIX COMES BACK\n" +
-                                    "FELIX WINS OUT)" },
+                                    "FELIX WINS OUT" },
             {   "title": "FÉLIX LE CHAT ET LA SOURIS", "fmt": "Pathé-Baby\n9.5mm", "year": 1924, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Original Film: FELIX LENDS A HAND" },
