@@ -232,195 +232,198 @@ var full_catalog = [
         "alphabetical": true,
         "items": [
             // CHARLIE CHAPLIN
-            {   "title": "EXCHANGE IS NO ROBBERY", "fmt": "9.5mm (Pathéscope)", "year": 1926, "ft": "30 ft",
+            {   "title": "EXCHANGE IS NO ROBBERY", "fmt": "Pathéscope\n9.5mm", "year": 1926, "ft": "30 ft",
                 "list_description": "Charlie Chaplin short.\n" +
-                                    "Original Film: GETTING ACQUAINTED (1914)" },
-            {   "title": "CHARLOT ET LE MARI JALOUX", "fmt": "9.5mm (Pathé-Baby)", "year": 1923, "ft": "30 ft",
+                                    "Original Film: GETTING ACQUAINTED" },
+            {   "title": "CHARLOT ET LE MARI JALOUX", "fmt": "Pathé-Baby\n9.5mm", "year": 1923, "ft": "30 ft",
                 "list_description": "Charlie Chaplin.\n" +
-                                    "Original Film: RECREATION (1914)" },
+                                    "Original Film: RECREATION " },
             // FELIX THE CAT
-            {   "title": "FELIX LE CHAT VIT UN CONTE FANTASTIQUE", "fmt": "9.5mm (Pathé-Baby)", "year": 1925, "ft": "30 ft",
+            {   "title": "FÉLIX LE CHAT VIT UN CONTE FANTASTIQUE", "fmt": "Pathé-Baby\n9.5mm", "year": 1925, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX IN LOVE (1922)" },
-            {   "title": "FELIX LE CHAT SE VENGE", "fmt": "9.5mm (Pathé-Baby)", "year": 1925, "ft": "30 ft",
+                                    "Original Film: FELIX IN LOVE" },
+            {   "title": "FÉLIX LE CHAT SE VENGE", "fmt": "Pathé-Baby\n9.5mm", "year": 1925, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX FIFTY-FIFTY (1922)" },
-            {   "title": "THE ADVENTURES OF FELIX THE CAT", "fmt": "Super 8mm\n(Mountain Films)", "year": 1970+"?", "ft": "300 ft",
+                                    "Original Film: FELIX FIFTY-FIFTY" },
+            {   "title": "THE ADVENTURES OF FELIX THE CAT", "fmt": "Mountain Films\nSuper 8mm", "year": 1970+"?", "ft": "300 ft",
                 "list_description": "Compilation of three Felix the Cat shorts: \n" +
-                                    "FELIX REVOLTS (1923)\n" +
-                                    "FELIX COMES BACK (1922)\n" +
-                                    "FELIX WINS OUT (1923)" },
-            {   "title": "FELIX LE CHAT ET LA SOURIS", "fmt": "9.5mm (Pathé-Baby)", "year": 1924, "ft": "30 ft",
+                                    "FELIX REVOLTS\n" +
+                                    "FELIX COMES BACK\n" +
+                                    "FELIX WINS OUT)" },
+            {   "title": "FÉLIX LE CHAT ET LA SOURIS", "fmt": "Pathé-Baby\n9.5mm", "year": 1924, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX FIFTY-FIFTY (1922)" },
-            {   "title": "FELIX LE CHAT CONNAIT LE REMORDS", "fmt": "9.5mm (Pathé-Baby)", "year": 1927, "ft": "~20 ft",
+                                    "Original Film: FELIX LENDS A HAND" },
+            {   "title": "FÉLIX LE CHAT CONNAIT LE REMORDS", "fmt": "Pathé-Baby\n9.5mm", "year": 1927, "ft": "~20 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Part 1 only.\n" +
-                                    "Original Film: FELIX CALMS HIS CONSCIENCE (1923)" },
-            {   "title": "FELIX LE CHAT FUMISTE EN TOUS GENRES", "fmt": "9.5mm (Pathé-Baby)", "year": 1926, "ft": "30 ft",
+                                    "Original Film: FELIX CALMS HIS CONSCIENCE" },
+            {   "title": "FÉLIX LE CHAT FUMISTE EN TOUS GENRES", "fmt": "Pathé-Baby\n9.5mm", "year": 1926, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX THE GOAT-GETTER (1923)" },
-            {   "title": "FELIX LE CHAT N'EST PAS SÉRIEUX", "fmt": "9.5mm (Pathé-Baby)", "year": 1934, "ft": "60 ft",
+                                    "Original Film: FELIX THE GOAT-GETTER" },
+            {   "title": "FÉLIX LE CHAT N'EST PAS SÉRIEUX", "fmt": "Pathé-Baby\n9.5mm", "year": 1934, "ft": "60 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX THE GOAT-GETTER (1923)" },
-            {   "title": "FELIX LE CHAT, LA BELLE ET LA BETE", "fmt": "9.5mm (Pathé-Baby)", "year": 1925, "ft": "60 ft",
+                                    "Original Film: FELIX THE GOAT-GETTER" },
+            {   "title": "FÉLIX LE CHAT, LA BELLE ET LA BÊTE", "fmt": "Pathé-Baby\n9.5mm", "year": 1925, "ft": "60 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Part 1 - 2 (30 ft each)\n" +
-                "Original Film: FELIX LOSES OUT (1924)" },
-            {   "title": "FELIX FINDS A GOLF BALL", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+                "Original Film: FELIX LOSES OUT" },
+            {   "title": "FELIX FINDS A GOLF BALL", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX ALL BALLED UP (1925)" },
-            {   "title": "FELIX BRINGS HOME THE BACON", "fmt": "8mm (Cine-Kodagraph)", "year": 1936, "ft": "50 ft",
+                                    "Original Film: FELIX ALL BALLED UP" },
+            {   "title": "FELIX BRINGS HOME THE BACON", "fmt": "Cine-Kodagraph\n8mm", "year": 1936, "ft": "50 ft",
                 "list_description": "Felix the Cat short." },
-            {   "title": "FELIX FOLLOWS THE SWALLOW", "fmt": "8mm (Cine-Kodagraph)", "year": 1934, "ft": "50 ft",
+            {   "title": "FELIX FOLLOWS THE SWALLOW", "fmt": "Cine-Kodagraph\n8mm", "year": 1934, "ft": "50 ft",
                 "list_description": "Felix the Cat short." },
-            {   "title": "FELIX HYPS' THE HIPPO", "fmt": "8mm (Cine-Kodagraph)", "year": 1936, "ft": "50 ft",
+            {   "title": "FELIX HYPS' THE HIPPO", "fmt": "Cine-Kodagraph\n8mm", "year": 1936, "ft": "50 ft",
                 "list_description": "Felix the Cat short." },
-            {   "title": "FELIX THE HYPNOTIST", "fmt": "8mm (Collector's Club)", "year": 1975, "ft": "150 ft",
+            {   "title": "FELIX THE HYPNOTIST", "fmt": "Collector's Club\n8mm", "year": 1975, "ft": "150 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: FELIX HYPS' THE HIPPO (1924)" },
-            {   "title": "FELIX THE CAT DINES AND PINES", "fmt": "8mm (Niles Films)", "year": NA, "ft": "200 ft",
+                                    "Original Film: FELIX HYPS' THE HIPPO" },
+            {   "title": "FELIX THE CAT DINES AND PINES", "fmt": "Niles Films\n8mm", "year": NA, "ft": "200 ft",
                 "list_description": "Felix the Cat short." },
-            {   "title": "FELIX AND HALLOWE'EN NIGHT", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
+            {   "title": "FELIX AND HALLOWE'EN NIGHT", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: SWITCHES WITCHES (1927)" },
-            {   "title": "FELIX PAY DAY", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
+                                    "Davil brill reissue of: SWITCHES WITCHES" },
+            {   "title": "FELIX PAY DAY", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: WHYS AND OTHER WHYS (1927)" },
-            {   "title": "A MAGIC CARPET NOW BRINGS FELIX TO ARABIA", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
+                                    "Davil brill reissue of: WHYS AND OTHER WHYS" },
+            {   "title": "A MAGIC CARPET NOW BRINGS FELIX TO ARABIA", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: ARABIANTICS (1928)" },
-            {   "title": "FELIX LOOKS INTO THE FUTURE", "fmt": "Super 8mm (Arrow Films)", "year": 1964+"?", "ft": "200 ft",
+                                    "Davil brill reissue of: ARABIANTICS" },
+            {   "title": "FELIX SEEKS DREAMLAND", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: FUTURITZY (1927)" },
-            {   "title": "FELIX CHAMPION INTERPLANETAIRE", "fmt": "8mm (Film Office)", "year": 1963, "ft": "50 ft",
+                                    "Davil brill reissue of: FORTY WINKS" },
+            {   "title": "FELIX LOOKS INTO THE FUTURE", "fmt": "Arrow Films\nSuper 8mm", "year": 1964+"?", "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: ASTRONOMEOWS (1928)" },
-            {   "title": "FELIX GOES TO CHINA", "fmt": "9.5mm (Pathéscope)", "year": 1956, "ft": "200 ft",
+                                    "Davil brill reissue of: FUTURITZY" },
+            {   "title": "FELIX CHAMPION INTERPLANÉTAIRE", "fmt": "Film Office\n8mm", "year": 1963, "ft": "50 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Davil brill reissue of: FALSE VASES (1929)" },
-            {   "title": "LE PICNIC DE FELIX", "fmt": "Super 8mm (Film Office)", "year": NA, "ft": "200 ft",
+                                    "Original Film: ASTRONOMEOWS" },
+            {   "title": "FELIX GOES TO CHINA", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: APRIL MAZE (1930)" },
-            {   "title": "FELIX SAYS GRACE", "fmt": "9.5mm (Pathéscope)", "year": 1957, "ft": "60 ft",
+                                    "Davil brill reissue of: FALSE VASES" },
+            {   "title": "LE PIQUE-NIQUE DE FÉLIX", "fmt": "Film Office\nSuper 8mm", "year": NA, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Original Film: APRIL MAZE (1930)" },
+                                    "Original Film: APRIL MAZE" },
+            {   "title": "FELIX SAYS GRACE", "fmt": "Pathéscope\n9.5mm", "year": 1957, "ft": "60 ft",
+                "list_description": "Felix the Cat short.\n" +
+                                    "Original Film: APRIL MAZE" },
             // DISNEY
-            {   "title": "AT THE CARNIVAL", "fmt": "9.5mm (Pathéscope)", "year": 1935, "ft": "30 ft",
+            {   "title": "AT THE CARNIVAL", "fmt": "Pathéscope\n9.5mm", "year": 1935, "ft": "30 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: KARNIVAL KID (1929)" },
-            {   "title": "MICKEY SELLS HOT DOGS", "fmt": "9.5mm (Pathéscope)", "year": 1935, "ft": "~15 ft",
+                                    "Original Film: KARNIVAL KID" },
+            {   "title": "MICKEY SELLS HOT DOGS", "fmt": "Pathéscope\n9.5mm", "year": 1935, "ft": "~15 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: KARNIVAL KID (1929)" },
-            {   "title": "MICKEY GOES TO WAR", "fmt": "16mm (Ensignareel)", "year": 1935, "ft": "~50 ft",
+                                    "Original Film: KARNIVAL KID" },
+            {   "title": "MICKEY GOES TO WAR", "fmt": "Ensignareel\n16mm", "year": 1935, "ft": "~25 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: BARNYARD BATTLE (1929)" },
-            {   "title": "BIG BOY ARRIVES", "fmt": "9.5mm (Pathéscope)", "year": 1935, "ft": "~20 ft",
+                                    "Original Film: BARNYARD BATTLE" },
+            {   "title": "BIG BOY ARRIVES", "fmt": "Pathéscope\n9.5mm", "year": 1935, "ft": "~20 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: THE OPRY HOUSE (1929)" },
-            {   "title": "CAT'S ON HOLIDAY", "fmt": "9.5mm (Pathéscope)", "year": 1936, "ft": "60 ft",
+                                    "Original Film: THE OPRY HOUSE" },
+            {   "title": "CAT'S ON HOLIDAY", "fmt": "Pathéscope\n9.5mm", "year": 1936, "ft": "60 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: WHEN THE CAT'S AWAY (1929)" },
-            {   "title": "MINNIE'S FREE RIDE", "fmt": "9.5mm (Pathéscope)", "year": 1936, "ft": "60 ft",
+                                    "Original Film: WHEN THE CAT'S AWAY" },
+            {   "title": "MINNIE'S FREE RIDE", "fmt": "Pathéscope\n9.5mm", "year": 1936, "ft": "60 ft",
                 "list_description": "Silly Symphony short.\n" +
-                                    "Original Film: MICKEY'S CHOO CHOO (1929)" },
-            {   "title": "AH! SWEET SUMMERTIME", "fmt": "9.5mm (Pathéscope)", "year": 1936, "ft": "~5 ft",
+                                    "Original Film: MICKEY'S CHOO CHOO" },
+            {   "title": "AH! SWEET SUMMERTIME", "fmt": "Pathéscope\n9.5mm", "year": 1936, "ft": "~5 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: SUMMERTIME (1930)" },
-            {   "title": "PLUTO PLAYS POSSUM", "fmt": "9.5mm (Pathéscope)", "year": 1939, "ft": "60 ft",
+                                    "Original Film: SUMMERTIME" },
+            {   "title": "PLUTO PLAYS POSSUM", "fmt": "Pathéscope\n9.5mm", "year": 1939, "ft": "60 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: THE MOOSE HUNT (1931)" },
-            {   "title": "MICKEY'S AEROPLANE", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "60 ft",
+                                    "Original Film: THE MOOSE HUNT" },
+            {   "title": "MICKEY'S AEROPLANE", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "60 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: THE MAIL PILOT (1933)" },
-            {   "title": "LOVESLICK PLUTO", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "60 ft",
+                                    "Original Film: THE MAIL PILOT" },
+            {   "title": "LOVESLICK PLUTO", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "60 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: PUPPY LOVE (1933)" },
-            {   "title": "DONALD DUCK", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "60 ft",
+                                    "Original Film: PUPPY LOVE" },
+            {   "title": "DONALD DUCK", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "60 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: ORPHAN'S BENEFIT (1933)" },
-            {   "title": "BUMPS AHEAD", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "30 ft",
+                                    "Original Film: ORPHAN'S BENEFIT" },
+            {   "title": "BUMPS AHEAD", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "30 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: CAMPING OUT (1934)" },
-            {   "title": "ONCE BITTEN", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "30 ft",
+                                    "Original Film: CAMPING OUT" },
+            {   "title": "ONCE BITTEN", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "30 ft",
                 "list_description": "Mickey Mouse short.\n" +
-                                    "Original Film: CAMPING OUT (1934)" },
-            {   "title": "TIMBER", "fmt": "8mm (G.B. Film Library;\nOn Eastmancolor stock)", "year": 1954, "ft": "200 ft",
+                                    "Original Film: CAMPING OUT" },
+            {   "title": "TIMBER", "fmt": "G.B. Film Library\n8mm", "year": 1954, "ft": "200 ft",
                 "list_description": "Donald Duck short." },
-            {   "title": "MICKEY DOWN UNDER", "fmt": "8mm (G.B. Film Library;\nOn Kodachrome stock)", "year": 1959, "ft": "200 ft",
+            {   "title": "MICKEY DOWN UNDER", "fmt": "G.B. Film Library\n8mm", "year": 1959, "ft": "200 ft",
                 "list_description": "Mickey Mouse short." },
             // OUT OF THE INKWELL
-            {   "title": "SURPRISE", "fmt": "16mm (Kodascope Library)", "year": 1927, "ft": "~180 ft",
+            {   "title": "SURPRISE", "fmt": "Kodascope Library\n16mm", "year": 1927, "ft": "~180 ft",
                 "list_description": "Out of the Inkwell short." },
-            {   "title": "KOKO GETS WET", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+            {   "title": "KOKO GETS WET", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Out of the Inkwell short.\n" +
-                                    "Original Film: MOTHER GOOSE LAND (1923)" },
-            {   "title": "KOKO MEETS JACK AND JILL", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+                                    "Original Film: MOTHER GOOSE LAND" },
+            {   "title": "KOKO MEETS JACK AND JILL", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Out of the Inkwell short.\n" +
-                                    "Original Film: MOTHER GOOSE LAND (1923)" },
-            {   "title": "THE CLIFF HANGER", "fmt": "16mm (Eastmancolor stock)", "year": 1966, "ft": "200 ft",
+                                    "Original Film: MOTHER GOOSE LAND" },
+            {   "title": "THE CLIFF HANGER", "fmt": "Eastmancolor stock\n16mm", "year": 1966, "ft": "200 ft",
                 "list_description": "Out of the Inkwell (TV Series) short." },
             // BETTY BOOP/TALKARTOONS
-            {   "title": "BETTY BOOP'S HALLOWE'EN PARTY", "fmt": "9.5mm (Pathéscope)", "year": 1938, "ft": "300 ft",
+            {   "title": "BETTY BOOP'S HALLOWE'EN PARTY", "fmt": "Pathéscope\n9.5mm", "year": 1938, "ft": "300 ft",
                 "list_description": "Betty Boop cartoon." },
             // POPEYE
-            {   "title": "NOISE ANNOYS POPEYE", "fmt": "9.5mm (Pathéscope)", "year": 1937, "ft": "60 ft",
+            {   "title": "NOISE ANNOYS POPEYE", "fmt": "Pathéscope\n9.5mm", "year": 1937, "ft": "60 ft",
                 "list_description": "Popeye the Sailor short.\n" +
-                                    "Original Film: SOCK-A-BYE BABY (1934)" },
+                                    "Original Film: SOCK-A-BYE BABY" },
             // AESOP'S FILM FABLES
-            {   "title": "PLOW BOY'S REVENGE", "fmt": "8mm (Snappy Cartoons)", "year": 1938, "ft": "150",
+            {   "title": "PLOW BOY'S REVENGE", "fmt": "Snappy Cartoons\n8mm", "year": 1938, "ft": "150",
                 "list_description": "Aesop's Film Fables short." },
-            {   "title": "RIVER OF DOUBT", "fmt": "16mm (Kodascope Library)", "year": 1948, "ft": "~130 ft",
+            {   "title": "RIVER OF DOUBT", "fmt": "Kodascope Library\n16mm", "year": 1948, "ft": "~130 ft",
                 "list_description": "Aesop's Film Fables short." },
             // KRAZY KAT
-            {   "title": "KITTY KAT IN THE WAR", "fmt": "8mm (Coast Films)", "year": NA, "ft": "50 ft",
+            {   "title": "KITTY KAT IN THE WAR", "fmt": "Coast Films\n8mm", "year": NA, "ft": "50 ft",
                 "list_description": "Krazy Kat short.\n" +
-                                    "Original Film: MOUSE TRAPPED (1926)" },
+                                    "Original Film: MOUSE TRAPPED" },
             // MISC LIVE ACTION
-            {   "title": "KODASCOPE LIBRARY PROMO", "fmt": "16mm (Kodascope)", "year": NA, "ft": "25 ft",
+            {   "title": "KODASCOPE LIBRARY PROMO", "fmt": "Kodascope\n16mm", "year": NA, "ft": "25 ft",
                 "list_description": "Compilation of these shorts: \n" +
-                                    "THE EARLY BIRD AND THE WORM (1928)\n" +
-                                    "ALGIERS ("+NA+")\n" +
-                                    "FELIX IN HOLLYWOOD (1923)\n" +
-                                    "EASY STREET (1917)\n" +
-                                    "WILD PUPPIES (1927)\n" +
-                                    "RIN TIN TIN \"THE NIGHT CRY\" (1926)\n" +
-                                    "THE MOOSE COUNTRY (1926)\n" +
-                                    "KEN MANYARD \"THE RED RAIDERS\" (1927)\n" +
-                                    "WE'RE IN THE NAVY NOW (1926)" },
-            {   "title": "THE AMERICAN", "fmt": "9.5mm (Pathéscope)", "year": 1926, "ft": "180 ft",
+                                    "THE EARLY BIRD AND THE WORM\n" +
+                                    "ALGIERS\n" +
+                                    "FELIX IN HOLLYWOOD\n" +
+                                    "EASY STREET\n" +
+                                    "WILD PUPPIES\n" +
+                                    "RIN TIN TIN \"THE NIGHT CRY\"\n" +
+                                    "THE MOOSE COUNTRY\n" +
+                                    "KEN MANYARD \"THE RED RAIDERS\"\n" +
+                                    "WE'RE IN THE NAVY NOW" },
+            {   "title": "THE AMERICAN", "fmt": "Pathéscope\n9.5mm", "year": 1926, "ft": "180 ft",
                 "list_description": "Douglas Fairbankst short.\n" +
                                     "Part 1 - 3 (60 ft each)\n" +
-                "Original Film: THE AMERICANO (1916)" },
-            {   "title": "FLICKERING FLAMES", "fmt": "9.5mm (Pathéscope)", "year": 1928, "ft": "60 ft",
+                "Original Film: THE AMERICANO" },
+            {   "title": "FLICKERING FLAMES", "fmt": "Pathéscope\n9.5mm", "year": 1928, "ft": "60 ft",
                 "list_description": "Part 1 - 2 (30 ft each)\n" +
-                "Original Film: LA FLAMBEE DES REVES (1924)" },
-            {   "title": "CHIMP CHARMING", "fmt": "9.5mm (Pathéscope)", "year": 1950, "ft": "30 ft",
-                "list_description": "Original Film: THE NEW ADVENTURES OF TARZAN (1935)" },
-            {   "title": "CHIMP CHARMING", "fmt": "9.5mm (Pathéscope)", "year": 1950, "ft": "30 ft",
-                "list_description": "Original Film: THE NEW ADVENTURES OF TARZAN (1935)" },
-            {   "title": "STEER DOGGING", "fmt": "16mm\n(Trojan Sporting Goods)", "year": NA, "ft": "25 ft",
+                "Original Film: LA FLAMBÉE DES RÊVES" },
+            {   "title": "CHIMP CHARMING", "fmt": "Pathéscope\n9.5mm", "year": 1950, "ft": "30 ft",
+                "list_description": "Original Film: THE NEW ADVENTURES OF TARZAN" },
+            {   "title": "STEER DOGGING", "fmt": "Trojan Sporting Goods\n16mm", "year": NA, "ft": "25 ft",
                 "list_description": "Origin unknown" },
-            {   "title": "NOW YOU SEE IT, NOW YOU DON'T", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+            {   "title": "NOW YOU SEE IT, NOW YOU DON'T", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Uncertain about the title (it's from the box).\n" +
                                     "Origin unknown." },
-            {   "title": "SKYSCRAPERS", "fmt": "16mm (Kodaplay)", "year": 1946, "ft": "25 ft",
+            {   "title": "SKYSCRAPERS", "fmt": "Kodaplay\n16mm", "year": 1946, "ft": "25 ft",
                 "list_description": "Origin unknown." },
-            {   "title": "JERRY ESCAPES", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
-                "list_description": "Original Film: JERRY THE GIANT (1926)?" },
-            {   "title": "UNKNOWN LIVE ACTION #1", "fmt": "16mm (Kodaplay)", "year": 1946, "ft": "25 ft",
+            {   "title": "JERRY ESCAPES", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
+                "list_description": "Original Film: JERRY THE GIANT?" },
+            {   "title": "FOUR TIMES FOILED", "fmt": "Kodascope Library\n16mm", "year": 1946, "ft": "~125 ft",
+                "list_description": "Snooky The Chimp short." },
+            {   "title": "UNKNOWN LIVE ACTION #1", "fmt": "Kodaplay\n16mm", "year": 1946, "ft": "25 ft",
                 "list_description": "Number #10509 in container.\n" +
                                     "Number #30 at end of film.\n" +
                                     "Origin unknown." },
-            {   "title": "UNKNOWN LIVE ACTION #2", "fmt": "16mm (Kodaplay)", "year": 1939, "ft": "25 ft",
+            {   "title": "UNKNOWN LIVE ACTION #2", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Number #7(?) at end of film.\n" +
                                     "Origin unknown." },
-            {   "title": "UNKNOWN LIVE ACTION #3", "fmt": "9.5mm (Pathéscope)", "year": NA, "ft": "~7 ft",
+            {   "title": "UNKNOWN LIVE ACTION #3", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "~7 ft",
                 "list_description": "Origin unknown." },
             // MISC CARTOON
-            {   "title": "FOXY FARMER", "fmt": "16mm (Keystone)", "year": NA, "ft": "50 ft",
+            {   "title": "FOXY FARMER", "fmt": "Keystone\n16mm", "year": NA, "ft": "50 ft",
                 "list_description": "Kernel Cootie short." },
-            {   "title": "THE TALE OF A KANGAROO", "fmt": "16mm (Keystone/Dover films)", "year": NA, "ft": "100 ft",
+            {   "title": "THE TALE OF A KANGAROO", "fmt": "Keystone\n16mm", "year": NA, "ft": "100 ft",
                 "list_description": "Happy Hooligan short." },
         ]
     }
