@@ -236,7 +236,7 @@ var full_catalog = [
                 "list_description": "Charlie Chaplin short.\n" +
                                     "Original Film: GETTING ACQUAINTED" },
             {   "title": "CHARLOT ET LE MARI JALOUX", "fmt": "Pathé-Baby\n9.5mm", "year": 1923, "ft": "30 ft",
-                "list_description": "Charlie Chaplin.\n" +
+                "list_description": "Charlie Chaplin short.\n" +
                                     "Original Film: RECREATION " },
             // FELIX THE CAT
             {   "title": "FÉLIX LE CHAT VIT UN CONTE FANTASTIQUE", "fmt": "Pathé-Baby\n9.5mm", "year": 1925, "ft": "30 ft",
@@ -287,7 +287,7 @@ var full_catalog = [
             {   "title": "FELIX PAY DAY", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Davil brill reissue of: WHYS AND OTHER WHYS" },
-            {   "title": "A MAGIC CARPET NOW BRINGS FELIX TO ARABIA", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
+            {   "title": "A MAGIC CARPET NOW\nBRINGS FELIX TO ARABIA", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Davil brill reissue of: ARABIANTICS" },
             {   "title": "FELIX SEEKS DREAMLAND", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
@@ -296,7 +296,7 @@ var full_catalog = [
             {   "title": "FELIX LOOKS INTO THE FUTURE", "fmt": "Arrow Films\nSuper 8mm", "year": 1964+"?", "ft": "200 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Davil brill reissue of: FUTURITZY" },
-            {   "title": "FELIX CHAMPION INTERPLANÉTAIRE", "fmt": "Film Office\n8mm", "year": 1963, "ft": "50 ft",
+            {   "title": "FÉLIX CHAMPION INTERPLANÉTAIRE", "fmt": "Film Office\n8mm", "year": 1963, "ft": "50 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Original Film: ASTRONOMEOWS" },
             {   "title": "FELIX GOES TO CHINA", "fmt": "Pathéscope\n9.5mm", "year": 1956, "ft": "200 ft",
@@ -371,7 +371,7 @@ var full_catalog = [
                 "list_description": "Popeye the Sailor short.\n" +
                                     "Original Film: SOCK-A-BYE BABY" },
             // AESOP'S FILM FABLES
-            {   "title": "PLOW BOY'S REVENGE", "fmt": "Snappy Cartoons\n8mm", "year": 1938, "ft": "150",
+            {   "title": "PLOW BOY'S REVENGE", "fmt": "Snappy Cartoons\n8mm", "year": 1938, "ft": "150 ft",
                 "list_description": "Aesop's Film Fables short." },
             {   "title": "RIVER OF DOUBT", "fmt": "Kodascope Library\n16mm", "year": 1948, "ft": "~130 ft",
                 "list_description": "Aesop's Film Fables short." },
@@ -401,7 +401,7 @@ var full_catalog = [
             {   "title": "CHIMP CHARMING", "fmt": "Pathéscope\n9.5mm", "year": 1950, "ft": "30 ft",
                 "list_description": "Original Film: THE NEW ADVENTURES OF TARZAN" },
             {   "title": "STEER DOGGING", "fmt": "Trojan Sporting Goods\n16mm", "year": NA, "ft": "25 ft",
-                "list_description": "Origin unknown" },
+                "list_description": "Origin unknown." },
             {   "title": "NOW YOU SEE IT, NOW YOU DON'T", "fmt": "Kodaplay\n16mm", "year": 1939, "ft": "25 ft",
                 "list_description": "Uncertain about the title (it's from the box).\n" +
                                     "Origin unknown." },
@@ -411,6 +411,8 @@ var full_catalog = [
                 "list_description": "Original Film: JERRY THE GIANT?" },
             {   "title": "FOUR TIMES FOILED", "fmt": "Kodascope Library\n16mm", "year": 1946, "ft": "~125 ft",
                 "list_description": "Snooky The Chimp short." },
+            {   "title": "THE STATE VISIT OF\nTHREE MAJESTIES TO PARIS", "fmt": "Pathéscope\n9.5mm", "year": 1938, "ft": "300 ft",
+                "list_description": "Pathé Super-reel." },
             {   "title": "UNKNOWN LIVE ACTION #1", "fmt": "Kodaplay\n16mm", "year": 1946, "ft": "25 ft",
                 "list_description": "Number #10509 in container.\n" +
                                     "Number #30 at end of film.\n" +

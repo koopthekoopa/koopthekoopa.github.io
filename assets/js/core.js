@@ -27,6 +27,12 @@ bottomContent = `
         <img src="assets/btn/n64.gif">
         <a href="http://wii.com/"><img src="assets/btn/wii_button.gif"></a>
         <img src="assets/btn/www.gif">
+        <img src="assets/btn/icon6.gif">
+        <img src="assets/btn/nocookie.gif">
+        <img src="assets/btn/js-warning.gif">
+        <img src="assets/btn/nland.gif">
+        <img src="assets/btn/smile.gif">
+        <img src="assets/btn/color.gif">
         <p>
             Registered trademarks used for this website's content, such as "Mario" and "Koopa", are owned by their respective owners, like Nintendo.<br>
             I do not make profit out of this website.<br>

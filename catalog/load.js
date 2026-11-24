@@ -9,7 +9,30 @@ var current_catalog_item_id = catalog_params.get("item_id");
 var current_catalog_item_title = catalog_params.get("item_title");
 
 String.prototype.catalog_title_format = function() {
-    return this.toUpperCase().replaceAll(' ', '_');
+    var formatted = this.toUpperCase();
+    // console.log(formatted);
+    var replace_list = [
+        [ ' ', '_' ],
+        [ "_-_", '_' ],
+        [ '!', '' ],
+        [ ',', '' ],
+        [ '\'', '' ],
+
+        [ '<', '' ],
+        [ '>', '' ],
+        [ ':', '' ],
+        [ '"', '' ],
+        [ '/', '_' ],
+        [ '\\', '_' ],
+        [ '|', '_' ],
+        [ '?', '' ],
+        [ '*', '' ],
+        [ '^', '' ],
+    ]
+    replace_list.forEach(replace => {
+        formatted = formatted.replaceAll(replace[0], replace[1]);
+    });
+    return formatted;
 }
 
 full_catalog.forEach(catalog => {
