@@ -253,9 +253,9 @@ var full_catalog = [
             {   "title": "FÉLIX LE CHAT ET LA SOURIS", "fmt": "Pathé-Baby\n9.5mm", "year": 1924, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
                                     "Original Film: FELIX LENDS A HAND" },
-            {   "title": "FÉLIX LE CHAT CONNAIT LE REMORDS", "fmt": "Pathé-Baby\n9.5mm", "year": 1927, "ft": "~20 ft",
+            {   "title": "FÉLIX LE CHAT CONNAIT LE REMORDS", "fmt": "Pathé-Baby\n9.5mm", "year": 1927, "ft": "under ~20 ft",
                 "list_description": "Felix the Cat short.\n" +
-                                    "Part 1 only.\n" +
+                                    "Part 1/2 only.\n" +
                                     "Original Film: FELIX CALMS HIS CONSCIENCE" },
             {   "title": "FÉLIX LE CHAT FUMISTE EN TOUS GENRES", "fmt": "Pathé-Baby\n9.5mm", "year": 1926, "ft": "30 ft",
                 "list_description": "Felix the Cat short.\n" +
@@ -422,6 +422,11 @@ var full_catalog = [
                                     "Origin unknown." },
             {   "title": "UNKNOWN LIVE ACTION #3", "fmt": "Pathéscope\n9.5mm", "year": NA, "ft": "~7 ft",
                 "list_description": "Origin unknown." },
+            {   "title": "UNKNOWN LIVE ACTION #4", "fmt": "Pathé-Baby\n9.5mm", "year": NA, "ft": "30 ft",
+                "list_description": "Origin unknown." },
+            {   "title": "UNKNOWN CHARLIE CHAPLIN", "fmt": "Pathé-Baby\n9.5mm", "year": NA, "ft": "30 ft",
+                "list_description": "Charlie Chaplin short.\n" +
+                                    "Origin unknown." },
             // MISC CARTOON
             {   "title": "FOXY FARMER", "fmt": "Keystone\n16mm", "year": NA, "ft": "50 ft",
                 "list_description": "Kernel Cootie short." },
